@@ -14,7 +14,7 @@ def main():
     shutil.rmtree('dist', ignore_errors=True)
     os.mkdir('dist')
 
-    with open('dist/CNAME') as f:
+    with open('dist/CNAME', 'w') as f:
         f.write('tshr.me')
 
     for link in links:
