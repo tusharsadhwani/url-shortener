@@ -14,6 +14,9 @@ def main():
     shutil.rmtree('dist', ignore_errors=True)
     os.mkdir('dist')
 
+    with open('dist/CNAME') as f:
+        f.write('tshr.me')
+
     for link in links:
         html_document = html.format(url=link['url'])
 
