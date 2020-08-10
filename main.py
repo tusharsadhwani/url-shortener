@@ -19,9 +19,7 @@ def main():
 
     for link in links:
         html_document = html.format(url=link['url'])
-
-        linkname = link['name']
-        file_path = f'dist/{linkname}.html'
+        file_path = f"dist/{link['name']}.html"
 
         with open(file_path, 'w') as f:
             f.write(html_document)
