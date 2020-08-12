@@ -6,7 +6,7 @@ import shutil
 
 def main():
     """Main Function"""
-    html = "<html><script>window.location.replace('{url}');</script></html>"
+    html = '<html><head><meta http-equiv="refresh" content="0;url={url}" /></head></html>'
 
     with open('links.json') as f:
         links = json.load(f)
