@@ -24,6 +24,14 @@
     "url": "https://github.com/tusharsadhwani/url-shortener/edit/master/links.json"
   },
   {
+    "name": "t",
+    "url": "https://twitch.tv/drunktimelord"
+  },
+  {
+    "name": "tc",
+    "url": "https://www.twitch.tv/popout/drunktimelord/chat?popout"
+  },
+  {
     "name": "404",
     "url": "https://tusharsadhwani.dev"
   }
