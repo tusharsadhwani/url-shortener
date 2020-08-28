@@ -32,6 +32,11 @@
     "url": "https://www.twitch.tv/popout/drunktimelord/chat?popout"
   },
   {
+    "name": "tr",
+    "url": "https://github.com/tusharsadhwani/twitch"
+  },
+  
+  {
     "name": "404",
     "url": "https://tusharsadhwani.dev"
   }
